@@ -3,7 +3,7 @@ springboot 整合websocket实现消息推送（主动推送，具体用户推送
 
 * Spring Boot 开发私有即时通信系统（WebSocket）：https://www.jianshu.com/p/0f498adb3820  项目地址：https://gitee.com/anoyi/anyim
 
-*使用WebSocket构建交互式Web应用程序
+* 使用WebSocket构建交互式Web应用程序
 本指南将引导您完成创建“hello world”应用程序的过程，该应用程序在浏览器和服务器之间来回发送消息。WebSocket是一个非常薄，轻量级的TCP层。它使得非常适合使用“子协议”来嵌入消息。在本指南中，我们将深入研究并使用Spring的STOMP消息来创建交互式Web应用程序。
 https://spring.io/guides/gs/messaging-stomp-websocket/
 
