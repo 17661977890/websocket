@@ -111,6 +111,16 @@ public class WebSocketServer2 {
         }
     }
 
+    /**
+     * 根据用户名获取session会话对象
+     * @param userName
+     * @return
+     */
+    public Session getSession(String userName){
+        Session session = sessionPools.get(userName);
+        return session;
+    }
+
     public static void addOnlineCount(){
         online.incrementAndGet();
     }
