@@ -1,6 +1,10 @@
 # websocket
 springboot 整合websocket实现消息推送（主动推送，具体用户推送，群发，定时推送）
 
+# 原理图解（与传统http请求差异）
+
+![image](http://dl2.iteye.com/upload/attachment/0130/1491/f14c9efc-07f6-3fcd-bdf7-faf2ebf0f6ae.png)
+
 
 ##使用websocket有两种方式：
 * 1是使用sockjs，
